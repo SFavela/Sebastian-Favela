@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <div class="logo">
+            <img src="../recursos/logo login.png"/>
+            <h1>Sistema Universitario de Calidad y Control Interno (SUCCI)</h1>
+        </div>
+        <div class="form">
+            <form class="log-in">
+                <div class="login__field">
+                    <i class="login__icon fas fa-user"></i>
+                    <input type="text" class="login__input" placeholder="Correo Electrónico" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fas fa-key"></i>
+                    <input type="password" class="login__input" placeholder="Contraseña">
+                </div>
+                <button class="button login__submit">
+                    <span class="button__text">Iniciar Sesión</span>
+                </button>
+                <p class="switch-form-text">¿No tienes una cuenta?<span class="register-link">Registrate</span></p>
+            </form>
+            <form class="registro">
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-user"></i>
+                    <input type="text" class="login__input" placeholder="Nombre" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-user"></i>
+                    <input type="text" class="login__input" placeholder="Apellido paterno" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-user"></i>
+                    <input type="text" class="login__input" placeholder="Apellido materno" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-building"></i>
+                    <input type="text" class="login__input" placeholder="Matrícula" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-building"></i>
+                    <select class="login__input">
+                        <option value="">Área</option>
+                        <option value="area1">Dirección de Desarrollo y Gestión de Recursos Humanos</option>
+                        <option value="area2">Coordinación de Obras</option>
+                        <option value="area3">Coordinación de Compras</option>
+                        <option value="area4">Coordinación de Relaciones Públicas</option>
+                        <option value="area5">Coordinación de Correspondencia y Mensajería</option>
+                        <option value="area6">Coordinación de Servicios Generales</option>
+                        <option value="area7">Coordinación de Patrimonio y Control Vehicular</option>
+                        <option value="area8">Coordinación General de Archivo</option>
+                        <option value="area9">Dirección de Difusión Cultural</option>
+                        <option value="area10">Editorial UJED</option>
+                        <option value="area11">Librería UJED</option>
+                        <option value="area12">Museo Regional UJED</option>
+                        <option value="area13">Radio UJED</option>
+                        <option value="area14">TV UJED</option>
+                        <option value="area15">Centro de Desarrollo del Deporte Universitario</option>
+                        <option value="area16">Dirección de Vinculación Institucional</option>
+                        <option value="area17">Dirección de Transformación Digital</option>
+                        <option value="area18">Dirección de Centro de Negocios</option>
+                        <option value="area19">Dirección de Servicios Escolares</option>
+                        <option value="area20">Dirección General de Bibliotecas</option>
+                        <option value="area21">Facultad de Ciencias Forestales y Ambientales</option>
+                        <option value="area22">Facultad de Trabajo Social</option>
+                        <option value="area23">Facultad de Ciencias Químicas</option>
+                        <option value="area24">Instituto de Bellas Artes</option>
+                    </select>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-building"></i>
+                    <select class="login__input">
+                        <option value="">Adscripción</option>
+                        <option value="ads1">Rectoría</option>
+                        <option value="ads2">Secretaría General</option>
+                        <option value="ads3">Subsecretaría General Académica</option>
+                        <option value="ads4">Subsecretaría General Administrativa</option>
+                        <option value="ads5">Comunicación Social</option>
+                        <option value="ads6">Investigación y Posgrado</option>
+                        <option value="ads7">Abogado General</option>
+                        <option value="ads8">Tesorería General</option>
+                        <option value="ads9">Contraloría</option>
+                        <option value="ads10">Difusión Cultural</option>
+                        <option value="ads10">Facultad de Ciencias Forestales y Ambientales</option>
+                        <option value="ads10">Facultad de Trabajo Social</option>
+                        <option value="ads10">Facultad de Ciencias Químicas</option>
+                        <option value="ads10">Instituto de Bellas Artes</option>
+                    </select>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fa-regular fa-at"></i>
+                    <input type="text" class="login__input" placeholder="Correo electrónico" required/>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fas fa-lock"></i>
+                    <input type="text" class="login__input" placeholder="Contraseña" required/>
+                </div>
+                <button class="button login__submit">
+                    <span class="button__text">Crear cuenta</span>
+                </button>
+                <p class="switch-form-text">¿Ya tienes cuenta?<span class="login-link">Iniciar Sesión</span></p>
+            </form>
+        </div>
+    </div> 
+    <script src="https://kit.fontawesome.com/4e771b6b78.js" crossorigin="anonymous"></script>
+    <script src="./script.js"> </script>
+</body>
+</html>

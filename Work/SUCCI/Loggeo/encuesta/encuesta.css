@@ -1,0 +1,109 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #B11830;
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    margin-left: 20%;
+    font-size: 24px;
+    color: #fff;
+}
+
+.encuesta{
+    width: 100%;
+    height: 100%;
+}   
+
+.secc{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.secc h2{
+    width: 100%;
+    text-align: center;
+    color: #970018;
+    font-size: 24px;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.space{
+    width: 30%;
+}
+
+.calificaciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+
+.calificaciones h3{
+    width: 100%;
+    text-align: center;
+}
+
+.calificaciones ul{
+    width: 100%;
+    display: flex;
+    gap: 66px;
+    list-style: none;
+    padding: 0;
+    margin: 0 30px 0 30px;
+    justify-content: center;
+}
+
+.calificaciones li{
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.preguntas{
+    width: 100%;
+}
+
+.renglon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
+.pregunta{
+    width: 30%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    width: 70%;
+    justify-content: center;
+    padding: 0;
+    margin: 0 30px 0 30px;
+}
+
+input{
+    margin: 0;
+}

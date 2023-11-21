@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./buzon.css"/>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="../recursos/Logo UJED 1.png"/>
+        </div>
+        <div class="text">
+            <h1>Buzón de Quejas y Sugerencias</h1>
+        </div>
+    </header>
+    <h2>Complete la siguiente información y en breve nos pondremos en contacto, para lo cual debe escribir algún número telefónico y/o correo electrónico, así como seleccionar por cual de esos dos medios dese ser contactada(o)</h2>
+    <form id="formulario">
+        <label for="nombreCompleto">Nombre Completo:</label>
+        <input type="text" id="nombreCompleto" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" required>
+
+        <label for="facultad">Facultad, Escuela, Departamento, Área:</label>
+        <select id="facultad" required>
+            <option value="facultad">Facultad</option>
+            <option value="escuela">Escuela</option>
+            <option value="departamento">Departamento</option>
+            <option value="area">Área</option>
+        </select>
+
+        <label for="tipo">Tipo:</label>
+        <input type="radio" name="tipo" value="Sugerencia"> Sugerencia
+        <input type="radio" name="tipo" value="Mejora"> Mejora
+        <input type="radio" name="tipo" value="Comentario"> Comentario
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="editor" required></textarea>
+
+        <label>Cómo deseas ser contactado:</label>
+        <input type="checkbox" name="contacto" value="Telefono"> Teléfono
+        <input type="checkbox" name="contacto" value="CorreoElectronico"> Correo Electrónico
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
